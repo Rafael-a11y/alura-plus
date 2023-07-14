@@ -191,12 +191,17 @@ body
         background-image: none;
     }
 
+    .container__imagem
+    {
+        width: 50vh;
+    }
+
     .container__caixa
     {
         margin: 1em 1em;
         row-gap: 1em;
     }
-    
+
 
     .secundario
     {
