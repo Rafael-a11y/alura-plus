@@ -213,6 +213,11 @@ body
         margin-top: 5em;
     }
 
+    .rodape__logo
+    {
+        margin-left: 2em;
+    }
+
     .rodape__lista
     {
         flex-direction: column;
