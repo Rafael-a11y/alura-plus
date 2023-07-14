@@ -178,4 +178,44 @@ body
     font-size: 14px;
 }
 
+@media screen and (max-width:768px)
+{
 
+    body
+    {
+        overflow-x: hidden;
+    }
+    .container
+    {
+        display: block;
+        background-image: none;
+    }
+
+    .secundario
+    {
+        margin: 0 1em;
+        text-align: center;
+    }
+
+    .container__descricao
+    {
+        padding: 1em;
+    }
+
+    .secundario__imagem
+    {
+        margin-top: 3em;
+    }
+
+    .dispositivos__lista
+    {
+        flex-direction: column;
+        margin-top: 5em;
+    }
+
+    .rodape__lista
+    {
+        flex-direction: column;
+        row-gap: 1em;
+    }
+}
