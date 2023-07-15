@@ -244,5 +244,6 @@ body
    .container
    {
     height: auto;
+    margin-bottom: 10rem;
    }
 }
