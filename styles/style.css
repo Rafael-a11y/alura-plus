@@ -184,15 +184,16 @@ body
     body
     {
         overflow-x: hidden;
-        display: flex;
-        flex-direction: column;
-        row-gap: 20rem;
-        
     }
     .container
     {
         display: block;
         background-image: none;
+    }
+
+    .container__imagem
+    {
+        width: 50vh;
     }
 
     .container__caixa
@@ -201,10 +202,6 @@ body
         row-gap: 1em;
     }
 
-    .container__imagem
-    {
-        width: 50vh;
-    }
 
     .secundario
     {
